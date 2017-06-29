@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[isVisible('${1:selector}')${2:.then(function(isVisible) {
+	$0
+\})}]]></content>
+<tabTrigger>isVisible</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Return true if the selected DOM-element found by given s...</description>
+</snippet>
