@@ -1,0 +1,14 @@
+{
+  "name": "config-magneton",
+  "version": "0.0.1",
+  "scripts": {
+    "lint": "eslint --quiet putdirectoryhere/",
+    "watch": "onchange putdirectoryhere/ -i -w -- npm run lint --silent"
+  },
+  "author": "Joseph Ward",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-plugin-chai-expect": "^1.1.1",
+    "onchange": "^3.2.1",
+  }
+}
